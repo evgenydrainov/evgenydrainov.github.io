@@ -1,9 +1,15 @@
+@font-face {
+	font-family: "Terminus";
+	src: url("TerminusMedium-001.000.ttf") format("truetype");
+}
+
 /* https://perfectmotherfuckingwebsite.com/ */
 body {
-	max-width: 650px;
+	max-width: 1500px;
 	margin: 40px auto;
 	padding: 0 10px;
-	font: 20px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: Terminus;
+	font-size: 22px;
 	color: #444
 }
 
@@ -26,4 +32,10 @@ h3 {
 	a:visited {
 		color: #8e96f0
 	}
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
